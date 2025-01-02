@@ -16,7 +16,7 @@ Hugging Face Transformers Setup: Import the necessary libraries and set up the s
 python
 '''from transformers import pipeline
 
-summarizer = pipeline("summarization")
+summarizer = pipeline("summarization")'''
 Model Selection: Choose an appropriate pre-trained model for summarization. For example, you could use the DistilBART-CNN-12-6 model, which is popular for summarization tasks1.
 python
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
